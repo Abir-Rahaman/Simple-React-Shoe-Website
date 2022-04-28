@@ -10,7 +10,7 @@ const CardDetails = (props) => {
     return (
         <Card className='card' style={{ width: '18rem' }}>
             <Card.Img variant="top" src={img}/>
-            <Card.Body>
+            <Card.Body className='info-section'>
                 <Card.Title> {name}</Card.Title>
                 <Card.Title> <p>Price:${price} </p> </Card.Title>
                 <Card.Title> <p>Quantity:{quantity} </p> </Card.Title>
